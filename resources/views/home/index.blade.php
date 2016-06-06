@@ -8,8 +8,8 @@
          <link rel="stylesheet" href="/fonts/font.css" media="screen" title="no title" charset="utf-8">
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
           <link rel="stylesheet" href="/css/ionicons.min.css">
-            <link href="/css/common.css" rel="stylesheet" type="text/css">
-            <link href="/css/carousel.css" rel="stylesheet" type="text/css">
+          <link href="/css/common.css" rel="stylesheet" type="text/css">
+          <link href="/css/carousel.css" rel="stylesheet" type="text/css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
           integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
           <link href="/css/carousel.css" rel="stylesheet" type="text/css">
@@ -51,7 +51,7 @@
           				<a href="https://www.aceandtate.com/our-story" title="Our Story" itemprop="url">
           					<span class="nav-item-name" itemprop="name">Themes</span> 				</a>
           			</li>
-          							
+
           			</ul>
                  <div id="aceandtate-navbar-right-container">
 
@@ -315,40 +315,7 @@
             </div>
         </div>
       </div>
-      <footer class="footer_page">
-        <div class="social-links no-mobile-block" data-reactid=".17irlz3rklc.2.1">
-          <div class="social-link" data-reactid=".17irlz3rklc.2.1.0">
-            <a href="http://vevo.tumblr.com/" id="__footerTumblr" data-reactid=".17irlz3rklc.2.1.0.0">
-              <i class="ion-social-skype"></i>
-            </a>
-          </div>
 
-          <div class="social-link" data-reactid=".17irlz3rklc.2.1.2">
-            <a href="https://www.facebook.com/vevo.fr" id="__footerFb" data-reactid=".17irlz3rklc.2.1.2.0">
-              <i class="ion-social-whatsapp"></i>
-            </a>
-          </div>
-          <div class="social-link" data-reactid=".17irlz3rklc.2.1.3">
-            <a href="https://plus.google.com/+VEVO/posts" id="__footerGoogle" data-reactid=".17irlz3rklc.2.1.3.0">
-              <i class="ion-social-youtube"></i>
-            </a>
-          </div>
-        </div>
-          <div class="links" data-reactid=".17irlz3rklc.2.2">
-            <div class="link not-ready" data-reactid=".17irlz3rklc.2.2.0">
-              <a href="//www.vevo.com/about" id="__footerAbout" data-reactid=".17irlz3rklc.2.2.0.0">Accueil</a></div>
-              <div class="link" data-reactid=".17irlz3rklc.2.2.1"><a href="//www.vevo.com/apps" >A Propos</a></div>
-              <div class="link not-ready" data-reactid=".17irlz3rklc.2.2.2"><a href="//www.vevo.com/news">Themes</a></div>
-              <div class="link" data-reactid=".17irlz3rklc.2.2.3"><a target="_blank" href="http://www.vevo.com/careers">
-                <span data-reactid=".17irlz3rklc.2.2.3.0.0">Contact</span>
-              </div>
-          </div>
-          <div class="footmark" data-reactid=".17irlz3rklc.2.3">
-            <span data-reactid=".17irlz3rklc.2.3.0">2016 </span>
-            <span data-reactid=".17irlz3rklc.2.3.1"> </span>
-            <span data-reactid=".17irlz3rklc.2.3.2">Reveil-Toi, Libre de tous droits.</span>
-          </div>
-      </footer>
 
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         </script>
@@ -357,14 +324,6 @@
           <script src="/js/jcarousel.responsive.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <script>
-        $(window).scroll(function() {
-          if ($(this).scrollTop() > 1){
-            $('nav').addClass("sticky");
-          }
-          else{
-            $('nav').removeClass("sticky");
-          }
-        });
-        </script>
+
     </body>
 </html>
