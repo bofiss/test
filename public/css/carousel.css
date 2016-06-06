@@ -1,0 +1,345 @@
+body{
+  font-family: 'VWHeadline-Bk', Avenir, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background: rgb(236, 235, 236);
+}
+nav {
+    /*position: fixed;*/
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    line-height: 12px;
+    height: 58px;
+    background: transparent;
+    color: #fff;
+    font-family: 'VWHeadline-Bk', sans-serif;
+    transition: all 0.4s ease;
+}
+nav.sticky{
+  font-size: 13px;
+  line-height: 12px;
+  height: 48px;
+  background: rgb(0, 0, 0, 0.8);
+  text-align: left;
+  padding-left: 20px;
+}
+.container > section {
+    padding: 5em 0 0 0;
+    font-size: 1.25em;
+    min-height: 100%;
+}
+.heading-title {
+	font-variant: small-caps;
+	font-size: 22px;
+	margin-left: 15px;
+	line-height: 1.4;
+   text-shadow: 0 0 1px rgba(0,0,0,0.1);
+
+}
+.heading-title i{
+	    vertical-align: middle;
+}
+
+
+@media (min-width: 768px){
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+    margin-left: -15px;
+}
+}
+
+
+.main-content{
+  font-family: "Avenir Next",sans-serif;
+  margin: 60px auto 0 auto;
+  position: relative;
+  width: 100%;
+}
+.navbar-default .navbar-brand {
+    color: #777;
+}
+.navbar-brand {
+    float: left;
+    height: 50px;
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.background- {
+  background: rgb(6, 15, 26) url('/images/bg_gradient4.png') top;
+  background-size: cover;
+ }
+
+.aceandtate-navbar {
+    margin-bottom: 0;
+    border-bottom: none;
+}
+.item .play-bt {
+  display:none ;
+}
+#myCarousel .item .play-btn {
+  display:block; position:absolute; top:20%; left:50%; opacity:0;
+  transition: all 0.5s;
+}
+#myCarousel:hover .item .play-btn {
+  display:block; position:absolute; top:20%; left:50%; opacity:1;
+}
+navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: rgb(193, 89, 27);
+    background-color: transparent;
+}
+.navbar-default {
+    background-color: transparent;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+.carousel-caption h1{
+  font-family: 'Zurich BT';
+  font-size: 24px;
+}
+.carousel-caption p{
+  font-size: 12px;
+}
+
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+#myCarousel .carousel-control {
+   opacity: 0;
+   text-shadow: h v blur rgba(0, 0, 0, .5);
+   transition: all 0.5s;
+}
+#myCarousel:hover .carousel-control{
+  opacity:1;
+}
+@media screen and (min-width: 768px){
+  .carousel-caption {
+      right: 20%;
+      left: 10%;
+      padding-bottom: 30px;
+  }
+
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    top: 20%;
+    left: 10%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    text-align: inherit;
+}
+.carousel-fade .carousel-inner .item {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+.carousel-fade .carousel-inner .item,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  opacity: 0;
+}
+.carousel-fade .carousel-inner .active,
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+.carousel-fade .carousel-inner .next,
+.carousel-fade .carousel-inner .prev,
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+}
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+.carousel-control.left , .carousel-control.right{
+    background: none
+}
+.carousel-control {
+    position: absolute;
+    top: 200px;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 1.4;
+    padding-right: 35%;
+  }
+
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+
+}
+
+.footer_page {
+  border-top: 2px solid #d1d3d2;
+  font-family: "Avenir Next",sans-serif;
+  font-size: 10px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+
+}
+.footer_page .links .link {
+    display: inline-block;
+    height: 25px;
+}
+.footer_page .links {
+    margin-top: 15px;
+}
+.footer_page .links .link a {
+    color: #000;
+    font-weight: bold;
+    margin: 0 9px;
+    text-decoration: none;
+}
+.footer_page .footmark {
+    color: #2E2E2E;
+    position: relative;
+    margin-bottom: 20px;
+}
+.footer_page  .social-links .social-link {
+    cursor: pointer;
+    display: inline-block;
+    padding: 20px 6px 0;
+    font-size: 18px;
+    color: #000;
+}
+.footer_page  .social-links .social-link a{
+    color: #000;
+}
+@media (min-width: 768px){
+.footer_page .social-links {
+    display: block;
+}
+}
+@media (min-width: 768px){
+.footer_page .no-mobile-block {
+    display: block;
+}
+}
+
+.footer_page .social-links {
+    display: block;
+}
+.footer_page .no-mobile-block {
+    display: block;
+}
+.block_title, .block_favorite{
+  font-weight: normal;
+  font-family: 'VWHeadline-Bk', Avenir;
+  font-size: 18px;
+}
+
+.block_title{
+  float: left;
+  width:200px;
+}
+.block_favorite{
+  float: right;
+  margin-right: 5px;
+  width:300px;
+}
+.block_favorite .user-actions {
+    display: inline-block;
+    vertical-align: top;
+}
+.like, .add, .share {
+    font-weight: 500;
+    cursor: pointer;
+    text-align: left;
+    display: inline-block;
+    margin-right: 5px;
+}
+.like div, .like span, .like i , .add i, .share i, .share span, .share div, .add span, .add div{
+    display: inline-block;
+}
+.container > .myfavoryte {
+     padding: 2em 0 1em 0;
+    font-size: 1.25em;
+    min-height: 100%;
+}
